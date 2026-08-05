@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif times new roman;
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("pictures/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.07;
+    z-index: -1;
+}
+/* Navbar styles (to work with the script) */
+.navbar {
+    margin-top: 0px;
+    position: fixed;
+    background-color: #00bf16;
+    border: 1px solid #000000;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    border-bottom: 2px solid #000000;
+}
+.btn{   
+    font-size: 50px;
+    margin-bottom: 17px;
+    padding-right: 40px;
+    background-color: #00bf16;
+    border: none;
+}
+section{
+    height: 82vh;
+    padding-top: 18vh;
+    padding-left: 1%;
+}
+.experience{
+    height: 200vh;
+}
+span{
+    font-size: 40px;
+    font-weight: bold;
+    margin:25px;
+}
+.menu{
+    display: none;
+    position: fixed;
+    right: 0;
+    top:20%;
+    height: 430px;
+    width: 25%;
+    background-color: #6cf07b;
+    z-index: 2;
+    border-left: 2px solid #000000;
+    border-top: 2px solid #000000;
+}
+.menu a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 15px;
+    border-bottom: 2px solid #000000;
+}
+.menu.active{
+  display: block;
+}
+/* Home section styles */
+.home-text{
+    display: flex;
+    flex-direction: column;
+}
+.home-text p{
+    font-size: 25px;
+}
+.home-text h1{
+    font-size: 40px;
+}
+i{
+    font-size: 30px;
+    padding-right: 10px;
+}
+.home-text div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+.home-text a{
+    text-decoration: none;
+    color: rgb(70, 55, 153);
+}
+/* Brief description styles */
+.BD p{
+    font-size: 20px;
+}
+/* Education section styles */
+.education p{
+    font-size: 20px;
+}
+/* Expirence section styles */
+.experience h1{
+    font-size: 30px;
+}
+.experience p1{
+    font-size: 20px;
+}
+/* skills section styles */
+.skills h1{
+    font-size: 30px;
+}
+.skills ul{
+    font-size: 25px;
+}
+.skills-bottom{
+    display: flex;
+}
+.certifications{
+    padding-left: 300px;
+}
+.certifications a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #305472;
+}
