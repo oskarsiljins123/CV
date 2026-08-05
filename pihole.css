@@ -12,7 +12,26 @@ body::before{
     z-index: -1;   
 }
 p{
-    font-size: 17px;
+    font-size: 150%;
+}
+.top{
+    display: flex;
+}
+.back-button{
+    height: 50px;
+    width: 20%;
+    padding-top:1% ;
+    text-align: center;
+    background-color: green;
+    margin-left: 78%;
+    border-radius: 20px;
+    margin-top: 1%;
+    position: fixed;
+}
+.back{
+    font-size: 200%;
+    text-decoration: none;
+    color: black;
 }
 .title{
     background-color: red;
@@ -26,20 +45,19 @@ p{
 }
 .bitsX{
     display: flex;
-    width: 900px;
-    padding: 20px;
-    gap: 20px   ;
+    width: 80%;
+    padding: 2%;
+    gap: 2%   ;
 }
 .bitsY{
-    width: 900px;
-    padding: 20px;
+    width: 80%;
+    padding: 2%;
 }
 .pihole-logo{
     height: 100px;
 }
 .ubuntu{
-    height: 100px;
-    width: 450px;
+    height: 200px;
 }
 
 .piinstall{
