@@ -22,9 +22,11 @@ window.addEventListener("scroll", () => {
 const button = document.querySelector(".btn");
 const menu = document.querySelector(".menu");
 const sections = document.querySelectorAll("section");
+const bookmark = document.querySelector(".bookmark")
 
 button.addEventListener("click", () => {
     menu.classList.toggle("active");
+    bookmark.classList.toggle("active")
 
     if (menu.classList.contains("active")) {
         button.textContent = "✕";
