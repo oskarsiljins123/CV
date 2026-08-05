@@ -1,0 +1,59 @@
+body{
+    font-family: monospace;
+}
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("pictures/piholebg.png.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.04;
+    z-index: -1;   
+}
+p{
+    font-size: 17px;
+}
+.title{
+    background-color: red;
+    height: 100px;
+    width: 500px;
+    border-radius: 30px;
+    text-align: center;
+}
+.title h1{
+    font-size: 45px;
+}
+.bitsX{
+    display: flex;
+    width: 900px;
+    padding: 20px;
+    gap: 20px   ;
+}
+.bitsY{
+    width: 900px;
+    padding: 20px;
+}
+.pihole-logo{
+    height: 100px;
+}
+.ubuntu{
+    height: 100px;
+    width: 450px;
+}
+
+.piinstall{
+    height: 200px;
+}
+.pihole-interface{
+    height: 150px;
+}
+.canyoublockit{
+    height: 100px;
+}
+.addblocktest{
+    height: 150px;
+}
+.blocklists{
+    height: 150px;
+}

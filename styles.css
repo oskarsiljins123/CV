@@ -1,153 +1,146 @@
-
 body {
-    margin: 0;
-    font-family: sans-serif times new roman;
+  margin: 0;
+  font-family: sans-serif times new roman;
 }
 body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background-image: url("pictures/bg2.jpg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.07;
-    z-index: -1;
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("pictures/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.07;
+  z-index: -1;
 }
 /* Navbar styles (to work with the script) */
 .navbar {
-    margin-top: 0px;
-    position: fixed;
-    background-color: #00bf16;
-    border: 1px solid #000000;
-    height: 20%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    z-index: 1;
-    border-bottom: 2px solid #000000;
+  margin-top: 0px;
+  position: fixed;
+  background-color: #00bf16;
+  border: 1px solid #000000;
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  border-bottom: 2px solid #000000;
 }
-.bookmark-home{
-    position: relative;
-    height: 110px;
-    width: 75px;
-    margin-right: 2%;
+.bookmark-home {
+  position: relative;
+  height: 110px;
+  width: 75px;
+  margin-right: 2%;
 }
-.bookmark{
-     width: 100%;
-    height: 87%;
-    background: red;
-    position: absolute;
-    /* bookmark */
-    clip-path: polygon(
-         0 0,
-        0 60%,
-        50% 100%,
-        100% 60%,
-        100% 0
-    );
+.bookmark {
+  width: 100%;
+  height: 87%;
+  background: red;
+  position: absolute;
+  /* bookmark */
+  clip-path: polygon(0 0, 0 60%, 50% 100%, 100% 60%, 100% 0);
 }
-.bookmark.active{
-    height: 97%;
+.bookmark.active {
+  height: 97%;
 }
-.btn{   
-    font-size: 35px;
-    background-color: red;
-    border: none;
-    position: absolute;
-    padding-left: 25%;
-    padding-top: 15%;
+.btn {
+  font-size: 35px;
+  background-color: red;
+  border: none;
+  position: absolute;
+  padding-left: 25%;
+  padding-top: 15%;
 }
-section{
-    height: 82vh;
-    padding-top: 18vh;
-    padding-left: 1%;
+section {
+  height: 82vh;
+  padding-top: 18vh;
+  padding-left: 1%;
 }
-.experience{
-    height: 200vh;
+.experience {
+  height: 200vh;
 }
-span{
-    font-size: 60px;
-    font-weight: bold;
-    margin:25px;
+span {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 25px;
 }
-.menu{
-    display: none;
-    position: fixed;
-    right: 0;
-    top:20%;
-    height: 430px;
-    width: 25%;
-    background-color: #6cf07b;
-    z-index: 2;
-    border-left: 2px solid #000000;
-    border-top: 2px solid #000000;
+.menu {
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 20%;
+  height: 430px;
+  width: 25%;
+  background-color: #6cf07b;
+  z-index: 2;
+  border-left: 2px solid #000000;
+  border-top: 2px solid #000000;
 }
-.menu a{
-    display: block;
-    color: black;
-    text-decoration: none;
-    font-size: 35px;
-    padding: 15px;
-    border-bottom: 2px solid #000000;
+.menu a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 15px;
+  border-bottom: 2px solid #000000;
 }
-.menu.active{
+.menu.active {
   display: block;
 }
 /* Home section styles */
-.home-text{
-    display: flex;
-    flex-direction: column;
+.home-text {
+  display: flex;
+  flex-direction: column;
 }
-.home-text p{
-    font-size: 25px;
+.home-text p {
+  font-size: 25px;
 }
-.home-text h1{
-    font-size: 40px;
+.home-text h1 {
+  font-size: 40px;
 }
-i{
-    font-size: 30px;
-    padding-right: 10px;
+i {
+  font-size: 30px;
+  padding-right: 10px;
 }
-.home-text div{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    margin-left: 20px;
+.home-text div {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-left: 20px;
 }
-.home-text a{
-    text-decoration: none;
-    color: rgb(70, 55, 153);
+.home-text a {
+  text-decoration: none;
+  color: rgb(70, 55, 153);
 }
 /* Brief description styles */
-.BD p{
-    font-size: 20px;
+.BD p {
+  font-size: 20px;
 }
 /* Education section styles */
-.education p{
-    font-size: 20px;
+.education p {
+  font-size: 20px;
 }
 /* Expirence section styles */
-.experience h1{
-    font-size: 30px;
+.experience h1 {
+  font-size: 30px;
 }
-.experience p1{
-    font-size: 20px;
+.experience p1 {
+  font-size: 20px;
 }
 /* skills section styles */
-.skills h1{
-    font-size: 30px;
+.skills h1 {
+  font-size: 30px;
 }
-.skills ul{
-    font-size: 25px;
+.skills ul {
+  font-size: 25px;
 }
-.skills-bottom{
-    display: flex;
+.skills-bottom {
+  display: flex;
 }
-.certifications{
-    padding-left: 300px;
+.certifications {
+  padding-left: 300px;
 }
-.certifications a{
-    font-size: 25px;
-    text-decoration: none;
-    color: #305472;
+.certifications a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #305472;
 }
