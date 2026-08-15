@@ -5,7 +5,7 @@ body::before{
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url("pictures/piholebg.png.png");
+    background-image: url("pihole-images/piholebg.png.png");
     background-size: cover;
     background-position: center;
     opacity: 0.04;
