@@ -5,10 +5,10 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-image: url("/dualboot/images/1.png");
+  background-image: url("images/1.png");
   background-size: cover;
   background-position: center;
-  opacity: 0.07;
+  opacity: 0.04;
   z-index: -1;
 }
 p {
@@ -21,7 +21,7 @@ a {
 
 .top {
   display: flex;
-  gap: 50%;
+  gap: 70%;
 }
 .back-button {
   height:5.5vh;
@@ -39,9 +39,9 @@ a {
   margin-top: 1vh;
 }
 .title {
-  background-color: rgb(100, 236, 111);
-  height: 15vh;
-  width: 35%;
+  background-color: orange;
+  height: 10vh;
+  width: 15%;
   border-radius: 3vh;
   display: flex;
   justify-content: center;
@@ -49,7 +49,6 @@ a {
 }
 .title h1 {
   font-size: 300%;
-  margin-left: 3vh;
 }
 .bitsX {
   display: flex;
@@ -61,6 +60,10 @@ a {
   width: 80%;
   padding: 2%;
 }
-img {
+.bitsX img {
   height: 30vh;
+}
+
+.bitsY img {
+  height: 20vh;
 }

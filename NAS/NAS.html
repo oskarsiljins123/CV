@@ -1,10 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Ubuntu NAS</title>
+    <link rel="stylesheet" href="NAS.css" />
   </head>
   <body>
-    
+    <div class="top">
+      <div class="title">
+        <h1>Ubuntu NAS</h1>
+      </div>
+      <div class="back-button">
+        <a href="/index.html" class="back">Back to the web-CV</a>
+      </div>
+    </div>
+
+    <div class="bitsX">
+      <img src="/NAS/images/2.png" />
+      <p>
+        As I have already set up a Ubuntu server within a VM previously I just
+        used that one to install the samba file share feature on it in order for
+        my server to be able to operate as a NAS
+      </p>
+    </div>
+
+    <div class="bitsX">
+      <img src="/NAS/images/3.png" />
+      <p>
+        After instaling samba on my server I had to configure a shared folder by
+        creating and then configuring the samba file that stores all the
+        information about the folders that need to be shared as well users and
+        their premisions within the folders.I added the the newly created folder
+        to the config file and then made a user in order to test it.I attempted
+        to access the folder from windows but I kept getting an error that
+        windows can not reach that folder.
+      </p>
+    </div>
+
+    <div class="bitsY">
+      <img src="/NAS/images/4.png" />
+      <p>
+        After a bit of research I realised that the shared folder was located in
+        my home directory so it was unavailable to other users, I moved the
+        folder to the root directory and then tried again and it all worked
+        perfectly so I tested the upload and download speeds by uploading a
+        somewhat large file onto it and the file server worked flawlessly.
+      </p>
+    </div>
   </body>
 </html>
