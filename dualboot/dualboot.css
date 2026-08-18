@@ -21,7 +21,7 @@ a {
 
 .top {
   display: flex;
-  gap: 60%;
+  gap: 50%;
 }
 .back-button {
   height:5.5vh;
@@ -39,16 +39,17 @@ a {
   margin-top: 1vh;
 }
 .title {
-  background-color: rgb(29, 104, 233);
-  height: 10vh;
-  width: 25%;
+  background-color: rgb(100, 236, 111);
+  height: 15vh;
+  width: 35%;
   border-radius: 3vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .title h1 {
-  font-size: 320%;
+  font-size: 300%;
+  margin-left: 3vh;
 }
 .bitsX {
   display: flex;
